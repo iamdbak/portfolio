@@ -166,6 +166,12 @@ body {
 
 }
 
+.projects .heading {
+	text-align: center;
+	padding-bottom: 40px;
+	width: 100%;
+}
+
 .items li{
 	display:inline-block;
 	padding: 5px;
@@ -340,6 +346,51 @@ body {
 	background: url(../img/loader.gif) center center no-repeat; 
 }
 
+
+.projects {
+  margin-left: -15px;
+  /* align section w/ heading above */
+}
+
+.projects a {
+  /* 30px is the gutter size in magic grid */
+  /* width: calc(49% - 30px); */
+  /* 49% avoids a weird single column on some wide screens */
+  text-align: center;
+  padding-bottom: 40px;
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+}
+
+.projects section {
+  width: 50%;
+  padding: 2.5vh 5%;
+  margin: 1vh 0px;
+  display: inline-block;
+  border-radius: 5px;
+  color: rgb(10,10,10);
+  border: 1px solid rgb(0, 0, 0, 0.08);
+  box-shadow: 0px 0px 0px rgb(0, 0, 0, 0);
+  transition: 0.4s ease-in-out;
+  transform: scale(1);
+  vertical-align: center;
+}
+
+.projects section:hover {
+  cursor: pointer;
+  border: 1px solid rgb(0, 0, 0, 0);
+  box-shadow: 0px 15px 35px rgb(0, 0, 0, 0.06);
+  transform: scale(1.03);
+}
+
+.section_title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 1vh 0px;
+  padding: 0px 1px;
+  word-wrap: break-word;
+}
 
 
 
